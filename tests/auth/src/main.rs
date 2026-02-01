@@ -47,7 +47,7 @@ fn main() {
     if auth_success {
         println!("Authentication succeeded");
     } else {
-        println!("Something went wrong");
+        eprintln!("Something went wrong");
     }
     std::thread::sleep(Duration::from_secs(1));
 }
