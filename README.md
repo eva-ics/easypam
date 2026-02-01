@@ -1,4 +1,9 @@
-# easypam - Rust interface for PAM (Linux)
+<h2>
+  easypam - Rust interface for PAM (Linux)
+  <a href="https://crates.io/crates/easypam"><img alt="crates.io page" src="https://img.shields.io/crates/v/easypam.svg"></img></a>
+  <a href="https://docs.rs/easypam"><img alt="docs.rs page" src="https://docs.rs/easypam/badge.svg"></img></a>
+</h2>
+
 
 EasyPAM provides high-level versatile interface to PAM (Pluggable
 Authentication Modules) library for Rust applications. It simplifies the
