@@ -442,8 +442,8 @@ extern "C" fn conv(
                     }
                     continue;
                 }
-                _ => {
-                    trace!("Unknown PAM message style: {}", (*m).msg_style);
+                style => {
+                    trace!(style, "Unknown PAM message style");
                     abort!();
                 }
             };
